@@ -1,0 +1,28 @@
+				@font-face {
+					font-family: 'regular';
+					src: url('/wp-content/uploads/useanyfont/8412Regular.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/8412Regular.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.regular{font-family: 'regular' !important;}
+
+						@font-face {
+					font-family: 'light';
+					src: url('/wp-content/uploads/useanyfont/9192Light.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/9192Light.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.light{font-family: 'light' !important;}
+
+						@font-face {
+					font-family: 'bold';
+					src: url('/wp-content/uploads/useanyfont/2020Bold.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2020Bold.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.bold{font-family: 'bold' !important;}
+
+		

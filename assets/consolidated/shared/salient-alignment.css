@@ -1,0 +1,228 @@
+/* Shared presentation for native Salient and WPBakery elements. */
+body.dws-salient-aligned .container-wrap{padding-top:0!important;margin-top:0!important;}
+body.dws-salient-aligned .container-wrap>.container{width:100%!important;max-width:none!important;padding:0!important;}
+body.dws-salient-aligned .container-wrap>.container>.row{margin:0!important;}
+/* Header matches the mezzanine-floors reference: native Salient white bar, dark labels. */
+body.dws-salient-aligned #header-outer .sub-menu{display:none!important;background:#fff!important;box-shadow:0 12px 30px rgba(0,0,0,.18)!important;}
+body.dws-salient-aligned #header-outer li:hover>.sub-menu,
+body.dws-salient-aligned #header-outer li:focus-within>.sub-menu{display:block!important;}
+body.dws-salient-aligned #header-outer .sub-menu a{color:#23282f!important;text-shadow:none!important;}
+body.dws-salient-aligned #header-outer .sub-menu a:hover{color:#169499!important;background:#f4f6f6!important;}
+
+.dws-native-section{position:relative;clear:both;}
+#dws-main .wpb_animate_when_almost_visible,
+#dws-main .img-with-animation{opacity:1!important;visibility:visible!important;transform:none!important;animation:none!important;}
+#dws-main>.dws-native-section:not(.dws-hero-row){padding-top:70px!important;padding-bottom:70px!important;}
+#dws-main>.dws-native-section:nth-child(odd):not(.dws-hero-row)>.row-bg-wrap .row-bg{background-color:#f5f6f6!important;}
+#dws-main>.dws-native-section>.row_col_wrap_12{max-width:1300px!important;margin:0 auto!important;width:calc(100% - 160px)!important;}
+#dws-main>.dws-native-section h2{line-height:1.2!important;margin-bottom:22px!important;}
+#dws-main>.dws-native-section p{line-height:1.65;}
+
+.dws-hero-row{padding:0!important;}
+.dws-hero-row>.row_col_wrap_12{max-width:none!important;width:100%!important;}
+.dws-hero-row .wpb_column>.vc_column-inner{padding:0!important;}
+.dws-native-hero-slider,
+.dws-native-hero-slider .swiper-container{height:650px!important;min-height:650px!important;background:#23282f;position:relative;overflow:hidden;}
+.dws-native-hero-slider .swiper-wrapper{position:relative;width:100%;height:100%;}
+.dws-native-hero-slider .swiper-slide{display:block!important;position:absolute!important;inset:0;width:100%!important;height:100%!important;opacity:0;visibility:hidden;transition:opacity .7s ease;z-index:0;transform:none!important;}
+.dws-native-hero-slider .swiper-slide.dws-active{display:block!important;opacity:1!important;visibility:visible!important;z-index:1;}
+.dws-native-hero-slider .slide-bg-wrap,
+.dws-native-hero-slider .image-bg,
+.dws-native-hero-slider .dws-slide-overlay{position:absolute;inset:0;}
+.dws-native-hero-slider .slide-bg-wrap{z-index:0!important;}
+.dws-native-hero-slider .image-bg{z-index:0;background-size:cover;background-position:center;transform:scale(1.01);}
+.dws-native-hero-slider .dws-slide-overlay{z-index:1;background:linear-gradient(90deg,rgba(26,30,36,.93) 0%,rgba(26,30,36,.76) 48%,rgba(26,30,36,.36) 100%);}
+.dws-native-hero-slider .container{height:100%;position:relative;z-index:3!important;display:flex!important;align-items:center;max-width:1300px!important;width:calc(100% - 160px)!important;opacity:1!important;visibility:visible!important;}
+.dws-native-hero-slider .content{display:block!important;position:static!important;transform:none!important;margin:0!important;padding:0!important;width:min(720px,65%);text-align:left!important;opacity:1!important;visibility:visible!important;}
+.dws-native-hero-slider h1,
+.dws-native-hero-slider .dws-slider-title{font-family:inherit;color:#fff!important;font-size:clamp(38px,4vw,60px)!important;font-weight:700!important;line-height:1.08!important;margin:0 0 22px!important;}
+.dws-native-hero-slider .dws-native-hero-copy>p{font-family:inherit;color:rgba(255,255,255,.86);font-size:18px;line-height:1.65;max-width:680px;margin:0 0 28px;}
+.dws-native-hero-slider .dws-hero-price{display:inline-block!important;opacity:1!important;visibility:visible!important;color:#fff!important;font-size:22px!important;font-weight:700!important;padding:10px 16px;border-left:3px solid #169499;background:rgba(35,40,47,.72);margin-top:-8px!important;}
+.dws-hi-span-logo{display:block;width:250px!important;max-width:44%!important;height:auto;margin:0 0 24px;}
+.dws-native-hero-actions{display:flex;flex-wrap:wrap;gap:14px;}
+.dws-native-hero-actions .nectar-button{display:inline-flex!important;align-items:center;justify-content:center;margin:0!important;min-height:56px;border-radius:0!important;}
+.dws-native-hero-actions .see-through-2{border:2px solid rgba(255,255,255,.72)!important;background:transparent!important;color:#fff!important;}
+.dws-native-hero-actions .see-through-2:hover{border-color:#169499!important;background:#169499!important;}
+.dws-hero-prev,.dws-hero-next{position:absolute;z-index:5;top:50%;width:46px;height:54px;transform:translateY(-50%);border:1px solid rgba(255,255,255,.35);background:rgba(28,33,39,.58);color:#fff;font-size:34px;line-height:1;cursor:pointer;}
+.dws-hero-prev{left:20px}.dws-hero-next{right:20px}
+.dws-hero-prev:hover,.dws-hero-next:hover{background:#169499;border-color:#169499;}
+.dws-hero-dots{position:absolute;z-index:5;bottom:22px;left:50%;display:flex;gap:10px;transform:translateX(-50%);}
+.dws-hero-dots button{width:9px;height:9px;padding:0;border:1px solid #fff;border-radius:50%;background:transparent;cursor:pointer;}
+.dws-hero-dots button[aria-current=true]{background:#fff;}
+
+.dws-native-project-grid{margin-top:40px!important;}
+.dws-native-project-grid>.row_col_wrap_12_inner{display:flex;gap:26px;align-items:stretch;}
+.dws-native-project-grid .wpb_column{flex:1;min-width:0;}
+.dws-native-project-grid .vc_column-inner,.dws-native-project-grid .wpb_wrapper{height:100%;}
+.dws-native-project-card{height:100%;min-height:340px;border:1px solid rgba(35,40,47,.08);box-shadow:0 8px 24px rgba(35,40,47,.08);}
+.dws-native-project-card .box-bg:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(21,25,30,.82),rgba(21,25,30,.08) 65%);}
+.dws-native-project-card .link-text{font-size:18px!important;font-weight:700!important;line-height:1.35!important;}
+.dws-project-rule{height:2px!important;width:100%!important;background:linear-gradient(90deg,#8fa36e,#169499)!important;margin-top:12px!important;}
+
+#applications .nectar-fancy-box{cursor:pointer;}
+#applications .nectar-fancy-box:focus-within{outline:3px solid #169499;outline-offset:4px;}
+#applications .nectar-fancy-box .box-link{z-index:10;}
+
+.dws-kits-intro>.row_col_wrap_12_inner{display:flex;gap:44px;align-items:flex-start;}
+.dws-kits-intro>.row_col_wrap_12_inner>.wpb_column{flex:1;min-width:0;}
+.dws-kits-intro .inner_row>.row_col_wrap_12_inner{display:grid;grid-template-columns:1fr!important;gap:16px;}
+.dws-kits-intro .inner_row .wpb_column{width:100%!important;}
+.dws-kits-intro h2{text-align:left!important;}
+
+@media(max-width:1199px){
+  body.dws-salient-aligned #dws-cta-bar{display:flex!important;visibility:visible!important;opacity:1!important;}
+  #dws-main>.dws-native-section>.row_col_wrap_12{width:calc(100% - 80px)!important;}
+  .dws-native-hero-slider .container{width:calc(100% - 120px)!important;}
+  .dws-native-project-grid>.row_col_wrap_12_inner{gap:18px;}
+}
+@media(max-width:999px){
+  .dws-native-hero-slider,.dws-native-hero-slider .swiper-container{height:680px!important;min-height:680px!important;}
+  .dws-native-hero-slider .container{width:calc(100% - 80px)!important;}
+  .dws-native-hero-slider .content{width:84%;}
+  .dws-native-project-grid>.row_col_wrap_12_inner{display:grid;grid-template-columns:repeat(2,1fr);}
+  .dws-native-project-grid .wpb_column{width:100%!important;}
+  .dws-kits-intro>.row_col_wrap_12_inner{display:grid;grid-template-columns:1fr;}
+}
+@media(max-width:690px){
+  #dws-main>.dws-native-section:not(.dws-hero-row){padding-top:50px!important;padding-bottom:50px!important;}
+  #dws-main>.dws-native-section>.row_col_wrap_12{width:calc(100% - 40px)!important;}
+  .dws-native-hero-slider,.dws-native-hero-slider .swiper-container{height:660px!important;min-height:660px!important;}
+  .dws-native-hero-slider .container{width:calc(100% - 44px)!important;align-items:center;}
+  .dws-native-hero-slider .content{width:100%;}
+  .dws-native-hero-slider h1,.dws-native-hero-slider .dws-slider-title{font-size:34px!important;}
+  .dws-native-hero-slider .dws-native-hero-copy>p{font-size:16px;}
+  .dws-native-hero-actions{display:grid;grid-template-columns:1fr;width:100%;}
+  .dws-native-hero-actions .nectar-button{width:100%;}
+  .dws-hero-prev,.dws-hero-next{top:auto;bottom:16px;transform:none;width:42px;height:42px;}
+  .dws-hero-prev{left:20px}.dws-hero-next{right:20px}
+  .dws-hero-dots{bottom:32px;}
+  .dws-native-project-grid>.row_col_wrap_12_inner{grid-template-columns:1fr;}
+  .dws-native-project-card{min-height:300px;}
+}
+@media(prefers-reduced-motion:reduce){.dws-native-hero-slider .swiper-slide{transition:none;}}
+
+/* Reference-aligned Nectar Slider hero. */
+#dws-main>.dws-hero-row>.row_col_wrap_12{max-width:none!important;width:100%!important;margin:0!important;}
+.dws-reference-hero,.dws-reference-hero .swiper-container{height:620px!important;min-height:620px!important;width:100%!important;}
+.dws-reference-hero .container{max-width:1300px!important;width:calc(100% - 160px)!important;padding:0!important;}
+.dws-reference-hero .content{display:block!important;width:100%!important;max-width:none!important;}
+.dws-reference-hero .dws-aligned-hero__inner{width:100%;max-width:none;grid-template-columns:minmax(0,1.15fr) minmax(360px,.85fr);gap:64px;}
+.dws-reference-hero .dws-aligned-hero__inner>div,
+.dws-reference-hero h1,
+.dws-reference-hero .dws-slider-title,
+.dws-reference-hero .dws-hero-sub,
+.dws-reference-hero .dws-hero-sub p{opacity:1!important;visibility:visible!important;transform:none!important;}
+.dws-reference-hero h1,.dws-reference-hero .dws-slider-title{max-width:720px;font-size:clamp(38px,3.1vw,52px)!important;line-height:1.1!important;}
+.dws-reference-hero .dws-hero-sub p{max-width:680px;color:rgba(255,255,255,.86);font-size:17px;line-height:1.6;}
+.dws-reference-hero .dws-hero-price{margin:0 0 24px!important;}
+.dws-reference-hero .dws-hero-trust{width:100%;max-width:500px;}
+.dws-projects__all{display:flex;justify-content:center;margin-top:30px;}
+.dws-projects__all .nectar-button{margin:0!important;}
+#related-services .dws-types{grid-template-columns:repeat(auto-fit,minmax(210px,1fr));}
+.dws-toc__secondary,.dws-sheet__secondary{display:flex;align-items:center;justify-content:center;gap:9px;border:1px solid #d9dde1;color:#23282f!important;padding:12px 10px;text-decoration:none!important;}
+.dws-toc__secondary:hover,.dws-sheet__secondary:hover{border-color:#169499;color:#169499!important;}
+.dws-cta-bar__secondary{flex:0 0 auto;display:flex;align-items:center;justify-content:center;min-width:82px;padding:0 12px;border:1px solid #e0e3e6;background:#fff;color:#169499!important;text-decoration:none!important;}
+.dws-cta-bar__secondary:hover{background:#169499;color:#fff!important;}
+@media(max-width:999px){
+  .dws-reference-hero,.dws-reference-hero .swiper-container{height:760px!important;min-height:760px!important;}
+  .dws-reference-hero .container{width:calc(100% - 80px)!important;}
+  .dws-reference-hero .dws-aligned-hero__inner{grid-template-columns:1fr;gap:30px;}
+  .dws-reference-hero .dws-hero-trust{max-width:none;}
+}
+@media(max-width:690px){
+  .dws-reference-hero,.dws-reference-hero .swiper-container{height:790px!important;min-height:790px!important;}
+  .dws-reference-hero .container{width:calc(100% - 44px)!important;}
+  .dws-reference-hero h1,.dws-reference-hero .dws-slider-title{font-size:34px!important;}
+  .dws-reference-hero .dws-hero-trust{padding:20px;}
+  .dws-reference-hero .dws-hero-trust__list{gap:13px;}
+}
+
+/* ================= Heading scale: matches the mezzanine-floors reference =================
+   Salient's native stepped scale, measured off the reference at 1440 / 1100 / 820 / 690px.
+   h1 50/1.3/700 · h2 30/1.667/700/1px · h3 25/1.28/700 · card h3 20/1.3/600 · ink #322f31 */
+body.dws-revised .dws-page-content h1,
+body.dws-revised .dws-page-content .dws-slider-title,
+body.dws-revised .dws-page-content .dws-aligned-hero h1,
+body.dws-revised .dws-native-hero-slider h1,
+body.dws-revised .dws-reference-hero h1,
+body.dws-revised .dws-reference-hero .dws-slider-title{font-size:50px!important;line-height:1.3!important;font-weight:700!important;letter-spacing:normal!important;}
+body.dws-revised .dws-page-content h2,
+body.dws-revised #dws-main>.dws-native-section h2{font-size:30px!important;line-height:1.6667!important;font-weight:700!important;letter-spacing:1px!important;color:#8fa36e!important;margin-bottom:7px!important;}
+body.dws-revised .dws-section-heading h2{margin-bottom:18px!important;}
+body.dws-revised .dws-page-content h3{font-size:25px!important;line-height:1.28!important;font-weight:700!important;letter-spacing:normal!important;color:#322f31!important;}
+body.dws-revised .dws-page-content h4{font-size:24px!important;line-height:1.25!important;font-weight:700!important;color:#23282f!important;}
+/* Card and list titles keep the reference's smaller 20/26 600 treatment. */
+body.dws-revised .dws-page-content .dws-type__body h3,
+body.dws-revised .dws-page-content .dws-product-card h3,
+body.dws-revised .dws-page-content .dws-info-card h3,
+body.dws-revised .dws-page-content .dws-split h3,
+body.dws-revised .dws-page-content .dws-process h3,
+body.dws-revised .dws-page-content .dws-usp-banner h3{font-size:20px!important;line-height:1.3!important;font-weight:600!important;color:#322f31!important;}
+/* Featured project briefs use the reference's lighter 30/400 heading. */
+body.dws-revised .dws-page-content .dws-project__brief h3,
+body.dws-revised #projects .dws-project__brief>h3{font-size:30px!important;line-height:1.25!important;font-weight:400!important;color:#23282f!important;}
+body.dws-revised .dws-page-content .dws-specs__card h3{font-size:25px!important;line-height:1.28!important;font-weight:700!important;}
+body.dws-revised .dws-page-content .dws-faq-toggles h3,
+body.dws-revised .dws-page-content .toggle-title{font-size:20px!important;line-height:1.3!important;font-weight:600!important;}
+/* Hero supporting copy: reference is 18/1.55, dropping to 16/1.55 under 1000px. */
+body.dws-revised .dws-hero-sub p{font-size:18px!important;line-height:1.55!important;font-weight:300!important;}
+@media(max-width:1300px){
+  body.dws-revised .dws-page-content h1,body.dws-revised .dws-page-content .dws-slider-title,
+  body.dws-revised .dws-page-content .dws-aligned-hero h1,body.dws-revised .dws-native-hero-slider h1,
+  body.dws-revised .dws-reference-hero h1,body.dws-revised .dws-reference-hero .dws-slider-title{font-size:37.5px!important;}
+  body.dws-revised .dws-page-content h2,body.dws-revised #dws-main>.dws-native-section h2{font-size:25.5px!important;}
+}
+@media(max-width:1000px){
+  body.dws-revised .dws-page-content h1,body.dws-revised .dws-page-content .dws-slider-title,
+  body.dws-revised .dws-page-content .dws-aligned-hero h1,body.dws-revised .dws-native-hero-slider h1,
+  body.dws-revised .dws-reference-hero h1,body.dws-revised .dws-reference-hero .dws-slider-title{font-size:35px!important;}
+  body.dws-revised .dws-page-content h2,body.dws-revised #dws-main>.dws-native-section h2{font-size:24px!important;}
+  body.dws-revised .dws-hero-sub p{font-size:16px!important;}
+  body.dws-revised .dws-page-content .dws-project__brief h3{font-size:25px!important;}
+}
+@media(max-width:690px){
+  body.dws-revised .dws-page-content h1,body.dws-revised .dws-page-content .dws-slider-title,
+  body.dws-revised .dws-page-content .dws-aligned-hero h1,body.dws-revised .dws-native-hero-slider h1,
+  body.dws-revised .dws-reference-hero h1,body.dws-revised .dws-reference-hero .dws-slider-title{font-size:32.5px!important;}
+  body.dws-revised .dws-page-content h2,body.dws-revised #dws-main>.dws-native-section h2{font-size:22.5px!important;}
+  body.dws-revised .dws-page-content h3{font-size:22px!important;}
+}
+
+/* ---------------------------------------------------------------
+   Hero parity with /mezzanine-floors/
+   Framing, vertical rhythm and CTA text styles are taken from the
+   mezzanine-floors hero so every mezzanine page reads the same.
+   --------------------------------------------------------------- */
+body.dws-revised .dws-reference-hero .dws-hero-sub p,
+body.dws-revised .dws-page-content .dws-hero-sub p{font-size:18px!important;line-height:1.55!important;font-weight:300!important;max-width:680px;margin:0 0 27px!important;}
+body.dws-revised .dws-reference-hero .dws-aligned-hero__inner>div>h1,
+body.dws-revised .dws-reference-hero .dws-aligned-hero__inner>div>.dws-slider-title{max-width:720px;margin:0 0 22px!important;}
+body.dws-revised .dws-page-content .dws-hero-ctas{margin-top:28px;display:flex;flex-wrap:wrap;align-items:center;gap:14px;}
+body.dws-revised .dws-page-content .dws-hero-ctas a{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;margin:0!important;padding:16px 24px!important;border:2px solid #169499!important;border-radius:0!important;background:#169499!important;color:#fff!important;font-size:13px!important;font-weight:300!important;line-height:1.3!important;letter-spacing:.035em!important;text-transform:uppercase;text-decoration:none;box-shadow:none!important;}
+body.dws-revised .dws-page-content .dws-hero-ctas a:hover{border-color:#11787c!important;background:#11787c!important;color:#fff!important;}
+body.dws-revised .dws-page-content .dws-hero-ctas .dws-hero-cta2{border-color:#b9c1c7!important;background:transparent!important;padding-left:24px!important;padding-right:24px!important;}
+body.dws-revised .dws-page-content .dws-hero-ctas .dws-hero-cta2:hover{border-color:#169499!important;background:#169499!important;}
+@media(max-width:690px){
+  body.dws-revised .dws-page-content .dws-hero-ctas{display:grid;grid-template-columns:1fr;}
+  body.dws-revised .dws-page-content .dws-hero-ctas a{width:100%;}
+}
+
+/* ---------------------------------------------------------------
+   Hero measure parity with /mezzanine-floors/
+   The theme pins .container to a fixed width with higher priority,
+   so the hero gutter is taken off .dws-aligned-hero__inner instead —
+   the same measure .dws-floor-hero-copy__inner uses on the reference
+   page: calc(100% - 160px) / 1300, stepping to 80px then 44px.
+   --------------------------------------------------------------- */
+body.dws-revised .dws-reference-hero .container,
+body.dws-revised .dws-native-hero-slider .container{width:100%!important;max-width:none!important;margin:0!important;padding:0!important;}
+body.dws-revised .dws-reference-hero .dws-aligned-hero__inner,
+body.dws-revised .dws-native-hero-slider .dws-aligned-hero__inner{width:calc(100% - 160px)!important;max-width:1300px!important;margin-left:auto!important;margin-right:auto!important;}
+@media(max-width:999px){
+  body.dws-revised .dws-reference-hero .dws-aligned-hero__inner,
+  body.dws-revised .dws-native-hero-slider .dws-aligned-hero__inner{width:calc(100% - 80px)!important;}
+}
+@media(max-width:690px){
+  body.dws-revised .dws-reference-hero .dws-aligned-hero__inner,
+  body.dws-revised .dws-native-hero-slider .dws-aligned-hero__inner{width:calc(100% - 44px)!important;}
+}

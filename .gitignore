@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+dist/
+build/
+*.log
+.env
+.env.*
+!.env.example
+
+# Private source capture. The deployable files are index.html and assets/.
+index.original.html
+Mezzanine Floors Melbourne _ Design, Permits & Install _ DWS_files/
