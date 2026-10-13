@@ -15,13 +15,16 @@
     'choose how to use the space':'Applications',
     'designed for storage and working space':'Design & structure',
     'explore other mezzanine floor solutions':'Other solutions',
-    'mezzanine floor builders in melbourne':'Melbourne',
+    'mezzanine floor builders in melbourne':'Solutions',
     'mezzanine floors we build in melbourne':'Applications',
     'clear-span, structural or rack-supported':'Structure',
     'is your warehouse suitable for a mezzanine floor?':'Warehouse suitability',
     'mezzanine permits and compliance in victoria':'Permits',
     'from site measure to installation':'Process',
     'melbourne mezzanine projects':'Projects',
+    'site suitability and permits in victoria':'Suitability & permits',
+    'frequently asked questions':'FAQs',
+    'get a free mezzanine floor quote':'Get a quote',
     'why melbourne businesses choose dynamic':'Why Dynamic',
     'our mezzanine floor solutions':'Solutions'
   };
