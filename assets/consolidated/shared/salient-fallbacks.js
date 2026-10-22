@@ -25,11 +25,7 @@
           timer = setInterval(function(){ show(current + 1); }, Number(slider.dataset.autorotate) || 6000);
         }
       }
-      slider.querySelector('.dws-hero-prev')?.addEventListener('click', function(){ show(current - 1); play(); });
-      slider.querySelector('.dws-hero-next')?.addEventListener('click', function(){ show(current + 1); play(); });
       dots.forEach(function(dot){ dot.addEventListener('click', function(){ show(Number(dot.dataset.slide)); play(); }); });
-      slider.addEventListener('mouseenter', function(){ clearInterval(timer); });
-      slider.addEventListener('mouseleave', play);
       document.addEventListener('visibilitychange', play);
       show(0);
       play();
