@@ -1,0 +1,71 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * sweet-sans-pro:
+ *   - http://typekit.com/eulas/00000000000000007735c623
+ *   - http://typekit.com/eulas/00000000000000007735c61b
+ *   - http://typekit.com/eulas/00000000000000007735c628
+ *   - http://typekit.com/eulas/00000000000000007735c62b
+ *   - http://typekit.com/eulas/00000000000000007735c62d
+ *   - http://typekit.com/eulas/00000000000000007735c633
+ *   - http://typekit.com/eulas/00000000000000007735c62f
+ *   - http://typekit.com/eulas/00000000000000007735c631
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2026-06-03 05:52:29 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=ihe0clk&ht=tk&f=44868.44869.44872.44873.44874.44875.44876.44877&a=352334587&app=typekit&e=css");
+
+@font-face {
+font-family:"sweet-sans-pro";
+src:url("https://use.typekit.net/af/67fc8b/00000000000000007735c623/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/67fc8b/00000000000000007735c623/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/67fc8b/00000000000000007735c623/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sweet-sans-pro";
+src:url("https://use.typekit.net/af/47eb2c/00000000000000007735c61b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/47eb2c/00000000000000007735c61b/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/47eb2c/00000000000000007735c61b/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sweet-sans-pro";
+src:url("https://use.typekit.net/af/a3634f/00000000000000007735c628/31/l?subset_id=2&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/a3634f/00000000000000007735c628/31/d?subset_id=2&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/a3634f/00000000000000007735c628/31/a?subset_id=2&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sweet-sans-pro";
+src:url("https://use.typekit.net/af/480869/00000000000000007735c62b/31/l?subset_id=2&fvd=i6&v=3") format("woff2"),url("https://use.typekit.net/af/480869/00000000000000007735c62b/31/d?subset_id=2&fvd=i6&v=3") format("woff"),url("https://use.typekit.net/af/480869/00000000000000007735c62b/31/a?subset_id=2&fvd=i6&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sweet-sans-pro";
+src:url("https://use.typekit.net/af/ab7c40/00000000000000007735c62d/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/ab7c40/00000000000000007735c62d/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/ab7c40/00000000000000007735c62d/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sweet-sans-pro";
+src:url("https://use.typekit.net/af/417c99/00000000000000007735c633/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/417c99/00000000000000007735c633/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/417c99/00000000000000007735c633/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sweet-sans-pro";
+src:url("https://use.typekit.net/af/fde829/00000000000000007735c62f/31/l?subset_id=2&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/fde829/00000000000000007735c62f/31/d?subset_id=2&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/fde829/00000000000000007735c62f/31/a?subset_id=2&fvd=n8&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sweet-sans-pro";
+src:url("https://use.typekit.net/af/6c5481/00000000000000007735c631/31/l?subset_id=2&fvd=i8&v=3") format("woff2"),url("https://use.typekit.net/af/6c5481/00000000000000007735c631/31/d?subset_id=2&fvd=i8&v=3") format("woff"),url("https://use.typekit.net/af/6c5481/00000000000000007735c631/31/a?subset_id=2&fvd=i8&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:800;font-stretch:normal;
+}
+
+.tk-sweet-sans-pro { font-family: "sweet-sans-pro",sans-serif; }
